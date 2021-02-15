@@ -1,0 +1,84 @@
+.StartPage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  #logo-1 {
+    animation: fill 0.5s ease 1.4s forwards;
+  }
+  #logo-2 {
+    position: absolute;
+    opacity: 0;
+  }
+  #logo-1 path:nth-child(1) {
+    stroke-dasharray: 381.2964782714844;
+    stroke-dashoffset: 381.2964782714844;
+    animation: line 1.3s ease-out 0.3s forwards;
+  }
+  #logo-1 path:nth-child(2) {
+    stroke-dasharray: 357.8224182128906;
+    stroke-dashoffset: 357.8224182128906;
+    animation: line 1.3s ease-out 0.3s forwards;
+  }
+  #logo-1 path:nth-child(3) {
+    stroke-dasharray: 389.861083984375;
+    stroke-dashoffset: 389.861083984375;
+    animation: line 1.3s ease-out 0.3s forwards;
+  }
+  #logo-1 path:nth-child(4) {
+    animation: line 1.3s ease-out 0.3s forwards;
+    stroke-dasharray: 357.8221435546875;
+    stroke-dashoffset: 357.8221435546875;
+  }
+  #logo-1 path:nth-child(5) {
+    animation: line 1.3s ease-out 0.3s forwards;
+    stroke-dasharray: 267.4000244140625;
+    stroke-dashoffset: 267.4000244140625;
+  }
+  #logo-1 path:nth-child(6) {
+    animation: line 1.3s ease-out 0.3s forwards;
+    stroke-dasharray: 166.53419494628906;
+    stroke-dashoffset: 166.53419494628906;
+  }
+  #logo-1 path:nth-child(7) {
+    animation: line 1.3s ease-out 0.3s forwards;
+    stroke-dasharray: 293.4034729003906;
+    stroke-dashoffset: 293.4034729003906;
+  }
+  #logo-1 path:nth-child(8) {
+    animation: line 1.3s ease-out 0.3s forwards;
+    stroke-dasharray: 166.53428649902344;
+    stroke-dashoffset: 166.53428649902344;
+  }
+  #logo-1 path:nth-child(9) {
+    animation: line 1.3s ease-out 0.3s forwards;
+    stroke-dasharray: 293.4031066894531;
+    stroke-dashoffset: 293.4031066894531;
+  }
+  #logo-1 path:nth-child(10) {
+    animation: line 1.3s ease-out 0.3s forwards;
+    stroke-dasharray: 481.30511474609375;
+    stroke-dashoffset: 481.30511474609375;
+  }
+  @keyframes line {
+    to {
+      stroke-dashoffset: 0;
+      stroke-width: 1;
+    }
+  }
+
+  @keyframes fill {
+    from {
+      fill: transparent;
+    }
+    to {
+      fill: white;
+    }
+  }
+}

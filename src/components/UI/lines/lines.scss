@@ -1,0 +1,42 @@
+.Line {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: -30px;
+}
+.XLine {
+  position: absolute;
+  height: 100vh;
+  top: 0;
+  left: -20px;
+}
+
+.redline {
+  background-color: red;
+  width: 25px;
+}
+.yellowline {
+  background-color: yellow;
+  width: 15px;
+  left: -45px;
+}
+.pinkline {
+  background-color: purple;
+  width: 20px;
+  // left: -150px;
+}
+.greenline {
+  background-color: green;
+  width: 13px;
+  // left: -150px;
+}
+.blueline {
+  background-color: blue;
+  width: 10px;
+  // left: -150px;
+}
+.cyanline {
+  background-color: cyan;
+  width: 5px;
+  // left: -150px;
+}
